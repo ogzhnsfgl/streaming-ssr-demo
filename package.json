@@ -1,6 +1,8 @@
 {
-  "name": "streaming",
+  "name": "Streaming Demo",
   "version": "0.1.0",
+  "description": "A demo of streaming SSR with Next.js",
+  "author": "Oguzhan Sofuoglu",
   "private": true,
   "scripts": {
     "dev": "next dev",

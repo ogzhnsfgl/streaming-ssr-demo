@@ -1,7 +1,5 @@
 import { CardList } from '@/components/card-list';
 import { DevCard } from '@/components/dev-card';
-import { Delays } from '@/constants/delays';
-import { wait } from '@/utils/wait';
 
 export default async function Persons() {
   return (

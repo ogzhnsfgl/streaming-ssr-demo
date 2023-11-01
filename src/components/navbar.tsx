@@ -1,12 +1,4 @@
-import { ReactNode } from 'react';
-
-function NavLink({ to, children }: { to: string; children: ReactNode }) {
-  return (
-    <a href={to} className={`mx-4`}>
-      {children}
-    </a>
-  );
-}
+import NavLink from './nav-link';
 
 export default function Navbar() {
   return (
@@ -18,6 +10,7 @@ export default function Navbar() {
       </div>
       <div>
         <NavLink to="/ssr">SSR</NavLink>
+        <NavLink to="/loading-ui">SSR + Loading UI</NavLink>
         <NavLink to="/">Streaming</NavLink>
       </div>
     </nav>
