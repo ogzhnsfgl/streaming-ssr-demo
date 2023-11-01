@@ -6,7 +6,7 @@ export const Footer = () => (
           Full Article on Medium
         </a>
         <a
-          href="https://github.com/Ogzhnsfgl/streamingSSR-demo"
+          href="https://github.com/Ogzhnsfgl/streaming-ssr-demo"
           target="_blank"
           rel="noopener noreferrer">
           GitHub Repo
