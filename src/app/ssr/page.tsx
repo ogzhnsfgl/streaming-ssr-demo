@@ -20,9 +20,9 @@ export default async function SSRPage() {
 
   return (
     <div>
-      <Products />
       <Persons />
       <Plans />
+      <Products />
     </div>
   );
 }
