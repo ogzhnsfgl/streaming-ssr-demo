@@ -21,7 +21,7 @@ You can experience the demo application live by visiting the following link:
 
 [Open Live Demo](https://streaming-ssr-demo.vercel.app/)
 
-## Author:
+## Author
 
 #### Oğuzhan Sofuoğlu - Frontend Developer [@ÇSTech](https://github.com/ciceksepetitech)
 
