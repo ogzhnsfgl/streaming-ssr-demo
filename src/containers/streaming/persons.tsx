@@ -13,7 +13,7 @@ export default async function Persons() {
       <DevCard delay={3500} />
       <DevCard delay={2500} />
       <DevCard delay={100} />
-      <DevCard delay={5000} />
+      <DevCard delay={4500} />
     </CardList>
   );
 }
