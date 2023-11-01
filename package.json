@@ -1,5 +1,5 @@
 {
-  "name": "Streaming Demo",
+  "name": "streaming-demo",
   "version": "0.1.0",
   "description": "A demo of streaming SSR with Next.js",
   "author": "Oguzhan Sofuoglu",
