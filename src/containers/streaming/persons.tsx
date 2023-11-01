@@ -8,12 +8,12 @@ export default async function Persons() {
 
   return (
     <CardList title="Persons">
-      <DevCard delay={13000} />
-      <DevCard delay={1000} />
-      <DevCard delay={5000} />
+      <DevCard delay={2000} />
       <DevCard delay={4000} />
-      <DevCard delay={6000} />
-      <DevCard delay={7000} />
+      <DevCard delay={3500} />
+      <DevCard delay={2500} />
+      <DevCard delay={100} />
+      <DevCard delay={5000} />
     </CardList>
   );
 }
