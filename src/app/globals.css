@@ -2,3 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.footerWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footerLinks a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.footerLinks a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #666666;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
