@@ -5,11 +5,11 @@ export default async function Persons() {
   return (
     <CardList title="Persons">
       <DevCard delay={200} />
-      <DevCard delay={20000} />
-      <DevCard delay={2100} />
-      <DevCard delay={400} />
-      <DevCard delay={1100} />
-      <DevCard delay={2500} />
+      <DevCard delay={300} />
+      <DevCard delay={500} />
+      <DevCard delay={600} />
+      <DevCard delay={200} />
+      <DevCard delay={100} />
     </CardList>
   );
 }

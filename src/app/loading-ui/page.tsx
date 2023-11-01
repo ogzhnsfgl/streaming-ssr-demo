@@ -8,7 +8,6 @@ import { Delays } from '@/constants/delays';
 export default async function SSRPage() {
   // cookies fn makes this page dynamic (SSR).
   const cookieStore = cookies();
-  // console.log(cookieStore);
 
   /**
    * To shorten the TTFB time, requests are optimized by parallelizing them.
@@ -17,11 +16,7 @@ export default async function SSRPage() {
   const personsPromise = await wait(Delays.PERSONS);
   const plansPromise = await wait(Delays.PLANS);
 
-  const [productData, personsData, plansData] = await Promise.allSettled([
-    productsPromise,
-    personsPromise,
-    plansPromise
-  ]);
+  await Promise.allSettled([productsPromise, personsPromise, plansPromise]);
 
   return (
     <div>

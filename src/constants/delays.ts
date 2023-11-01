@@ -1,5 +1,5 @@
 export const Delays = {
-  PRODUCTS: 1000,
-  PERSONS: 1000,
-  PLANS: 1000
+  PRODUCTS: 2000,
+  PERSONS: 9000,
+  PLANS: 6000
 };
